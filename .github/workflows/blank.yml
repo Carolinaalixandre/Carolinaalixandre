@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fábrica de Roupas - Aquarela Malharia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #6c757d;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #5a6268;
+            padding: 1em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section-title {
+            text-align: center;
+            color: #343a40;
+        }
+        .about, .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .about div, .services div {
+            flex: 1 1 45%;
+            margin: 1em;
+            padding: 1em;
+            background: rgba(0, 123, 255, 0.1);
+            border: 1px solid #dee2e6;
+            border-radius: 0.25em;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0.5em 0;
+        }
+        .contact {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background-color: #6c757d;
+            color: white;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aquarela Malharia</h1>
+    <p>Fábrica de Roupas - Uniformes e Mais</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">Sobre Nós</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#services">Serviços</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<div class="container" id="home">
+    <h2 class="section-title">Bem-vindo à Aquarela Malharia</h2>
+    <p>Especializada na fabricação de uniformes, calças, toucas, aventais, jalecos e bordados. Confira nosso portfólio diversificado e os serviços de fabricação sob encomenda com entrega em todo o Brasil.</p>
+</div>
+
+<div class="container" id="about">
+    <h2 class="section-title">Sobre Nós</h2>
+    <div class="about">
+        <div>
+            <h3>Quem Somos</h3>
+            <p>Somos uma fábrica de roupas dedicada à criação de uniformes e diversos outros produtos têxteis. Nosso compromisso é com a qualidade e a satisfação dos nossos clientes.</p>
+        </div>
+        <div>
+            <h3>Nosso Diferencial</h3>
+            <p>Oferecemos produtos personalizados sob encomenda e um serviço de entrega eficiente que cobre todo o território nacional.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="portfolio">
+    <h2 class="section-title">Portfólio</h2>
+    <div class="portfolio">
+        <!-- Adicione suas imagens aqui -->
+        <img src="caminho/para/sua/imagem1.jpg" alt="Produto 1">
+        <img src="caminho/para/sua/imagem2.jpg" alt="Produto 2">
+        <img src="caminho/para/sua/imagem3.jpg" alt="Produto 3">
+        <!-- Mais imagens conforme necessário -->
+    </div>
+</div>
+
+<div class="container" id="services">
+    <h2 class="section-title">Serviços</h2>
+    <div class="services">
+        <div>
+            <h3>Fabricação de Uniformes</h3>
+            <p>Produzimos uniformes personalizados para empresas de todos os setores.</p>
+        </div>
+        <div>
+            <h3>Entrega em Todo o Brasil</h3>
+            <p>Nossos produtos são entregues em qualquer lugar do país, garantindo agilidade e segurança.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2 class="section-title">Contato</h2>
+    <div class="contact">
+        <p>Entre em contato conosco pelos números abaixo ou siga-nos no Instagram.</p>
+        <p>Telefones:</p>
+        <p>66996069436</p>
+        <p>66999881970</p>
+        <p>66999114779</p>
+        <p>Instagram: <a href="https://instagram.com/aquarelamalharia" target="_blank">@aquarelamalharia</a></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Aquarela Malharia. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>  
